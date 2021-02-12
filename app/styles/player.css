@@ -1,0 +1,47 @@
+.player {
+    background-color: #75E6DA;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+}
+
+.songName {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.controls {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.directionButton {
+    background-color: white;
+    border-radius: 5px;
+    color: #05445E;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.playButton {
+    background-color: #05445E;
+    border-radius: 50%;
+    color: white;
+    height: 80px;
+    margin: 0 5px;
+    width: 80px;
+}

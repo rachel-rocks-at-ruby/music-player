@@ -1,0 +1,44 @@
+.playlist {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.playlistHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.playlistTitle {
+    color: darkgray;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.song {
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.activeSong,
+.song:focus,
+.song:hover {
+    background-color: #D4F1F4;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.track {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.songInfo {
+    color: #05445E;
+}

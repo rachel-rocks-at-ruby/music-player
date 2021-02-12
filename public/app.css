@@ -1,0 +1,108 @@
+body {
+  background-color: #D4F1F4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.player {
+    background-color: #75E6DA;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+}
+
+.songName {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.controls {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.directionButton {
+    background-color: white;
+    border-radius: 5px;
+    color: #05445E;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.playButton {
+    background-color: #05445E;
+    border-radius: 50%;
+    color: white;
+    height: 80px;
+    margin: 0 5px;
+    width: 80px;
+}
+
+.container {
+  border-radius: 5px;
+  width: 400px;
+}
+
+.playlist {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.playlistHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.playlistTitle {
+    color: darkgray;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.song {
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.activeSong,
+.song:focus,
+.song:hover {
+    background-color: #D4F1F4;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.track {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.songInfo {
+    color: #05445E;
+}
+
+/*# sourceMappingURL=app.css.map*/
